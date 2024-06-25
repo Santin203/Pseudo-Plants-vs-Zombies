@@ -36,6 +36,40 @@ To run the game locally:
 2. Compile the source code files.
 3. Execute the compiled program to start the game.
 
+## Instructions to Compile, Link, and Run the Program
+
+To compile, link, and run the Plants vs. Zombies Tower Defense Game, follow these steps:
+
+1. **Save the Files:**
+   Save the files `final_project.c` and `instructions.txt` in a single folder on your computer.
+
+2. **Open Command Line:**
+   Open a command line interface (CLI) on your operating system.
+
+3. **Navigate to Program Folder:**
+   Change the directory path in the command line to the folder where you saved the program files. For example:
+   ```
+   cd path/to/your/folder
+   ```
+
+4. **Compile the Program:**
+   Type the following command in the command line to compile the program using GCC (GNU Compiler Collection):
+   ```
+   gcc plants_vs_zombies.c -o plants_vs_zombies
+   ```
+   This command compiles `plants_vs_zombies.c` and creates an executable named `plants_vs_zombies`.
+
+   > **Note:** Make sure you have the MinGW compiler installed on your PC for this command to work properly.
+
+5. **Run the Program:**
+   Once compilation is successful, you can run the executable by typing the following command and pressing Enter:
+   ```
+   ./plants_vs_zombies
+   ```
+
+6. **Important Note:**
+   Ensure you follow all the steps above without skipping any, as skipping steps may result in the program not functioning correctly.
+
 ## Testing
 The project includes a detailed test plan to ensure functionality across various scenarios:
 - **Bug Testing**: Validates handling of invalid inputs and edge cases.
